@@ -1,0 +1,28 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: antiquewhite
+}
+
+
+.recipe-list {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.recipe {
+    height: 300px;
+    width: 300px;
+    background-color: antiquewhite;
+    border: solid 1px black;
+}
+
+.search {
+    display: flex;
+    align-items: flex-end;
+}
